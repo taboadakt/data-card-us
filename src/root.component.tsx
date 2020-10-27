@@ -2,9 +2,10 @@ import React from "react";
 import { Global, css } from "@emotion/core";
 import { ThemeProvider } from "./hooks/ThemeContext";
 import DataCard from "./views/DataCard";
+import { state } from "@ktaboada/api";
 
 export default function Root(props) {
-  const { globalCSS, theme } = props;
+  const { eventBus, globalCSS, theme } = props;
 
   return (
     <>
@@ -14,7 +15,7 @@ export default function Root(props) {
         `}
       />
       <ThemeProvider theme={theme}>
-        <DataCard />
+        <DataCard eventBus={eventBus} />
       </ThemeProvider>
     </>
   );

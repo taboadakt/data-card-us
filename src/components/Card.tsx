@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+export const CardContainer = styled.div`
+  margin: 50px;
+`;
+
 export const Card = styled.div`
   border-radius: 12px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
