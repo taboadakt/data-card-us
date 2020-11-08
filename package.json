@@ -58,7 +58,7 @@
     "@types/react-dom": "^16.9.6",
     "@types/systemjs": "^6.1.0",
     "@types/webpack-env": "^1.15.1",
-    "@viasat/vci-components": "^1.2.7",
+    "@viasat/vci-components": "github:taboadakt/vci-components#master",
     "emotion": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "eo-locale": "^7.4.2",

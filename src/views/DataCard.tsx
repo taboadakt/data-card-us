@@ -14,6 +14,7 @@ import {
   CardBody,
   CardContainer,
 } from "../components/Card";
+// @ts-ignore
 import { events, state } from "@ktaboada/api";
 
 export default function DataCard(props) {
